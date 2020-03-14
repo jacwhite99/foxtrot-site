@@ -2,24 +2,29 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+import { Route, Switch, Redirect, BrowserRouter } from "react-router-dom";
+
+// Page Layout
+import Layout from "./hoc/Layout";
+
+// Web pages
+import Home from "./containers/Home";
+import Contact from "./containers/Contact";
+import Rooms from "./containers/Rooms";
+
 const App = () => {
+	const routes = (
+		<Switch>
+			<Route path="/" exact component={Home} />
+			<Route path="/contact" exact component={Contact} />
+			<Route path="/rooms" exact component={Rooms} />
+			<Redirect to="/" />
+		</Switch>
+	);
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-		</div>
+		<BrowserRouter>
+			<Layout>{routes}</Layout>
+		</BrowserRouter>
 	);
 };
 
