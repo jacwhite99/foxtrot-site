@@ -1,0 +1,28 @@
+.section {
+	padding-left: 15px;
+	padding-right: 15px;
+
+	text-align: center;
+	&__title {
+		font-size: 2.5rem;
+		text-transform: uppercase;
+	}
+	&__subtitle {
+		padding-bottom: 4vh;
+		text-transform: uppercase;
+
+		font-size: 1.8rem;
+	}
+
+	&__text {
+	}
+}
+
+.bottomBorder {
+	width: 50%;
+	border-bottom: 1px solid #d2282e;
+	margin: 0 auto;
+	height: 16px;
+
+	margin-bottom: 2vh;
+}

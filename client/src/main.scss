@@ -6,4 +6,9 @@
 	padding-bottom: 2.5rem;
 }
 
-@import "./sass/components/pageComponents/footer.scss";
+// Components
+@import "./sass/components/pageComponents/footer/footer.scss";
+@import "./sass/components/pageComponents/carousel/carousel.scss";
+@import "./sass/components/pageComponents/Jumbotrons/homeJumbotron.scss";
+//General Files
+@import "./sass/general/section/section.scss";
