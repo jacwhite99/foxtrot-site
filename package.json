@@ -1,0 +1,24 @@
+{
+	"name": "foxtrot-site",
+	"version": "1.0.0",
+	"description": "Website for the Foxtrot Guesthouse and Campsite",
+	"main": "index.js",
+	"scripts": {
+		"start": "concurrently \"cd client && npm start\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jacwhite99/foxtrot-site.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^5.1.0"
+	},
+	"bugs": {
+		"url": "https://github.com/jacwhite99/foxtrot-site/issues"
+	},
+	"homepage": "https://github.com/jacwhite99/foxtrot-site#readme"
+}
