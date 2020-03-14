@@ -6,7 +6,7 @@ import Footer from "../components/PageComponents/Footer";
 const layout = props => {
 	return (
 		<div>
-			<main>
+			<main className="content">
 				<NavBar></NavBar>
 				{props.children}
 			</main>

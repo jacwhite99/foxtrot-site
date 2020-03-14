@@ -10,8 +10,7 @@ import {
 	UncontrolledDropdown,
 	DropdownToggle,
 	DropdownMenu,
-	DropdownItem,
-	NavbarText
+	DropdownItem
 } from "reactstrap";
 
 const navbar = () => {
@@ -24,29 +23,31 @@ const navbar = () => {
 
 	return (
 		<Navbar color="light" light expand="md">
-			<NavbarBrand href="/">reactstrap</NavbarBrand>
+			<NavbarBrand href="/">Foxtrot</NavbarBrand>
 			<NavbarToggler onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="mr-auto" navbar>
 					<NavItem>
-						<NavLink href="/contact">Components</NavLink>
+						<NavLink href="/">Homepage</NavLink>
+					</NavItem>
+					<NavItem>
+						<NavLink href="/contact">Contact Us</NavLink>
 					</NavItem>
 					<UncontrolledDropdown nav inNavbar>
 						<DropdownToggle nav caret>
-							Options
+							Room Types
 						</DropdownToggle>
 						<DropdownMenu right>
 							<DropdownItem href="/rooms">Rooms</DropdownItem>
 							<DropdownItem href="/rooms/campsite">
-								campsite
+								Campsite
 							</DropdownItem>
 							<DropdownItem href="/rooms/guesthouse">
-								guesthouse
+								Guesthouse
 							</DropdownItem>
 						</DropdownMenu>
 					</UncontrolledDropdown>
 				</Nav>
-				<NavbarText>Simple Text</NavbarText>
 			</Collapse>
 		</Navbar>
 	);
