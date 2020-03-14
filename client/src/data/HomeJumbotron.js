@@ -1,5 +1,5 @@
 const HomeJumbotron = {
-	title: "Foxtrot",
+	title: "Foxdale",
 	subtitle: "Guesthouse and Campsite"
 };
 

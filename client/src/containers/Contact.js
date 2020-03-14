@@ -4,13 +4,15 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 //Page Components
-
+import FluidJumbotron from "../components/PageComponents/FluidJumbotron";
+import Map from "../components/PageComponents/Map";
 const contact = () => {
 	return (
 		<div>
-			<h1>Contact</h1>
-			<div>
-				<p>Ways To Contact</p>
+			<FluidJumbotron data={{ title: "Contact Us" }}></FluidJumbotron>
+			<div className="section">
+				<p className="section__title">Ways To Contact</p>
+				<div className="bottomBorder"></div>
 				<Container>
 					<Row>
 						<Col>Email</Col>
@@ -18,9 +20,14 @@ const contact = () => {
 					</Row>
 				</Container>
 			</div>
-			<div>
-				<p>How To Find Us</p>
-				<p>Map Information</p>
+			<div className="section">
+				<div>
+					<p className="section__title"> How To Find Us</p>
+					<div className="bottomBorder"></div>
+					<p className="section__text">TEXT</p>
+					<p className="section__subtitle">Map Information</p>
+					<Map></Map>
+				</div>
 			</div>
 		</div>
 	);
