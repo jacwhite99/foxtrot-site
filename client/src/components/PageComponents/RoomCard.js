@@ -11,13 +11,18 @@ import {
 
 const card = props => {
 	const data = props.info;
+
+	const redirect = () => {
+		window.location.href = data.href;
+	};
+
 	return (
 		<Card>
 			<CardBody>
 				<CardTitle>{data.name}</CardTitle>
 				<CardSubtitle>{data.subtitle}</CardSubtitle>
 				<CardText>{data.text}</CardText>
-				<Button>Find Out More</Button>
+				<Button onClick={redirect}>Find Out More</Button>
 			</CardBody>
 		</Card>
 	);

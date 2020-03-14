@@ -1,15 +1,16 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 // Bootstrap Imports
 import { Container, Row, Col } from "reactstrap";
+
 const rooms = props => {
 	if (props.title) {
 		const title = props.title;
 		const features = props.features;
 		return (
 			<div>
-				<p>{title}</p>
+				<h1>{title}</h1>
 				<ul>
 					{features.map(feature => {
 						return <li>feature</li>;
