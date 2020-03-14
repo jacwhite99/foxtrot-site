@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 #root {
   position: relative;
   min-height: 100vh;
+  font-family: "Lato", sans-serif;
 }
 
 .content {
@@ -27,6 +29,21 @@
   text-align: center;
 }
 
+.map {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .section {
   padding-left: 15px;
   padding-right: 15px;
@@ -50,5 +67,10 @@
   margin: 0 auto;
   height: 16px;
   margin-bottom: 2vh;
+}
+
+.bottomBorder__large {
+  width: 80%;
+  border-bottom: 3px solid #d2282e;
 }
 /*# sourceMappingURL=main.css.map */

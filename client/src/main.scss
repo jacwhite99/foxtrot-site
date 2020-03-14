@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 #root {
 	position: relative;
 	min-height: 100vh;
+	font-family: "Lato", sans-serif;
 }
 .content {
 	padding-bottom: 2.5rem;
@@ -10,5 +13,7 @@
 @import "./sass/components/pageComponents/footer/footer.scss";
 @import "./sass/components/pageComponents/carousel/carousel.scss";
 @import "./sass/components/pageComponents/Jumbotrons/homeJumbotron.scss";
+@import "./sass/components/pageComponents/map/Map.scss";
 //General Files
 @import "./sass/general/section/section.scss";
+@import "./sass/general/border/border.scss";

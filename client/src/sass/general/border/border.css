@@ -1,0 +1,13 @@
+.bottomBorder {
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 16px;
+  margin-bottom: 2vh;
+}
+
+.bottomBorder__large {
+  width: 80%;
+  border-bottom: 3px solid #d2282e;
+}
+/*# sourceMappingURL=border.css.map */
