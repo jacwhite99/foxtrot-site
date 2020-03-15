@@ -14,6 +14,7 @@ import homeJumbotron from "../data/HomeJumbotron";
 import Email from "../images/email.png";
 import Phone from "../images/phone.png";
 
+//Dale Beach on Jumbotron
 const home = () => {
 	return (
 		<div>
@@ -89,7 +90,7 @@ const home = () => {
 						<ListGroup horizontal>
 							<Container>
 								<Row>
-									<Col sm="6" xs="12">
+									<Col sm="3" xs="12">
 										<ListGroupItem>
 											<div>
 												<img
@@ -101,15 +102,39 @@ const home = () => {
 											</div>
 										</ListGroupItem>
 									</Col>
-									<Col sm="6" xs="12">
+									<Col sm="3" xs="12">
 										<ListGroupItem>
 											<div>
 												<img
 													src={Phone}
 													alt="phone-icon"
 												></img>
-												<h3>Phone</h3>
+												<h3>Guesthouse Phone</h3>
 												<h4>01646 636243</h4>
+											</div>
+										</ListGroupItem>
+									</Col>
+									<Col sm="3" xs="12">
+										<ListGroupItem>
+											<div>
+												<img
+													src={Phone}
+													alt="phone-icon"
+												></img>
+												<h3>PitchUp</h3>
+												<h4>link here</h4>
+											</div>
+										</ListGroupItem>
+									</Col>
+									<Col sm="3" xs="12">
+										<ListGroupItem>
+											<div>
+												<img
+													src={Phone}
+													alt="phone-icon"
+												></img>
+												<h3>Campsite Phone</h3>
+												<h4>07735 632912</h4>
 											</div>
 										</ListGroupItem>
 									</Col>
