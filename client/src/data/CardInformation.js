@@ -1,14 +1,24 @@
+import GuesthouseImage from "../images/homeCarousel/welcome.jpg";
+import CampsiteImage from "../images/homeCarousel/bed-view.jpg";
 const CardInformation = {
 	guesthouse: {
 		name: "Guest House",
-		subtitle: "We are Epic",
-		text: "TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT",
+		image: {
+			src: GuesthouseImage,
+			altText: "Image"
+		},
+		subtitle: "Brief Description of Guesthouse",
+		text: "More indepth Description",
 		href: "/rooms/guesthouse"
 	},
 	campsite: {
 		name: "Campsite",
-		subtitle: "We are less Epic",
-		text: "TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT",
+		image: {
+			src: CampsiteImage,
+			altText: "Image"
+		},
+		subtitle: "Brief Description of Guesthouse",
+		text: "More indepth Description",
 		href: "/rooms/campsite"
 	}
 };

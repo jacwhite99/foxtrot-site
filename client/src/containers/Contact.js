@@ -31,7 +31,7 @@ const contact = () => {
 			<div className="section">
 				<div>
 					<p className="section__title"> How To Find Us</p>
-					<div>Glebe Lane, Marloes SA62 3AY, Haverfordwest</div>
+					<p>Glebe Lane, Marloes SA62 3AY, Haverfordwest</p>
 					<div className="bottomBorder"></div>
 					<p className="section__subtitle">Map Information</p>
 					<Map></Map>

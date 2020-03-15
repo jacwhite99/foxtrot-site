@@ -16,13 +16,16 @@ const information = { title: "Our Room Types" };
 const rooms = props => {
 	if (props.title) {
 		const title = props.title;
+		const text = props.text;
 		const features = props.features;
+		const carouselImages = props.images;
 		return (
 			<div>
+				<FluidJumbotron data={{ title: title }}></FluidJumbotron>
 				<Container fluid>
-					<FluidJumbotron data={{ title: title }}></FluidJumbotron>
 					<Row>
 						<Col md="6" sm="6" xs="12">
+							<p>{text}</p>
 							<ListGroup>
 								{features.map(feature => {
 									return (
@@ -32,7 +35,7 @@ const rooms = props => {
 							</ListGroup>
 						</Col>
 						<Col md="6" sm="6" xs="12">
-							<Carousel></Carousel>
+							<Carousel images={carouselImages}></Carousel>
 						</Col>
 					</Row>
 				</Container>
@@ -44,12 +47,17 @@ const rooms = props => {
 				<FluidJumbotron data={information}></FluidJumbotron>
 				<Container>
 					<Row>
-						<Col>
+						<Col xs="12">
+							Text about rooms and everthing goes here
+						</Col>
+					</Row>
+					<Row>
+						<Col sm="6" xs="12">
 							<RoomCard
 								info={CardInformation.guesthouse}
 							></RoomCard>
 						</Col>
-						<Col>
+						<Col sm="6" xs="12">
 							<RoomCard
 								info={CardInformation.campsite}
 							></RoomCard>

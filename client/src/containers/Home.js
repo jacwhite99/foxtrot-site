@@ -1,7 +1,7 @@
 import React from "react";
 
 // Bootstrap Imports;
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 // Page Components
 import RoomCard from "../components/PageComponents/RoomCard";
 import HomeJumbotron from "../components/PageComponents/HomeJumbotron";
@@ -9,6 +9,10 @@ import HomeJumbotron from "../components/PageComponents/HomeJumbotron";
 //Data Import
 import CardInformation from "../data/CardInformation";
 import homeJumbotron from "../data/HomeJumbotron";
+
+//Image Import
+import Email from "../images/email.png";
+import Phone from "../images/phone.png";
 
 const home = () => {
 	return (
@@ -44,12 +48,12 @@ const home = () => {
 				<div className="bottomBorder"></div>
 				<Container>
 					<Row>
-						<Col>
+						<Col sm="6" xs="12">
 							<RoomCard
 								info={CardInformation.guesthouse}
 							></RoomCard>
 						</Col>
-						<Col>
+						<Col sm="6" xs="12">
 							<RoomCard
 								info={CardInformation.campsite}
 							></RoomCard>
@@ -63,21 +67,56 @@ const home = () => {
 				<h2 className="section__title">How to Book</h2>
 				<div className="bottomBorder"></div>
 				<div className="section__text">
-					"Sed ut perspiciatis unde omnis iste natus error sit
-					voluptatem accusantium doloremque laudantium, totam rem
-					aperiam, eaque ipsa quae ab illo inventore veritatis et
-					quasi architecto beatae vitae dicta sunt explicabo. Nemo
-					enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-					aut fugit, sed quia consequuntur magni dolores eos qui
-					ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-					qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-					velit, sed quia non numquam eius modi tempora incidunt ut
-					labore et dolore magnam aliquam quaerat voluptatem. Ut enim
-					ad minima veniam, quis nostrum exercitationem ullam corporis
-					suscipit laboriosam, nisi ut aliquid ex ea commodi
-					consequatur? Quis autem vel eum iure reprehenderit qui in ea
-					voluptate velit esse quam nihil molestiae consequatur, vel
-					illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+					<div>
+						<h4>Figure out the service you want</h4>
+						<p>
+							From our bed and breakfast, to the variation of
+							campsite types we provide, picking what is for you
+							may be hard, look throughout the site to find out
+							more on whats for offer. Dont be afraid to contact
+							us if you need more information on a certain
+							service.
+						</p>
+					</div>
+					<div>
+						<h4>Contact Us</h4>
+						<p>
+							Now with the service that you want to pick, get in
+							contact with us letting us know the service and the
+							date(s) you want to book for and we will see what we
+							can do for you
+						</p>
+						<ListGroup horizontal>
+							<Container>
+								<Row>
+									<Col sm="6" xs="12">
+										<ListGroupItem>
+											<div>
+												<img
+													src={Email}
+													alt="email-icon"
+												></img>
+												<h3>Email</h3>
+												<h4>foxdale@btconnect.com</h4>
+											</div>
+										</ListGroupItem>
+									</Col>
+									<Col sm="6" xs="12">
+										<ListGroupItem>
+											<div>
+												<img
+													src={Phone}
+													alt="phone-icon"
+												></img>
+												<h3>Phone</h3>
+												<h4>01646 636243</h4>
+											</div>
+										</ListGroupItem>
+									</Col>
+								</Row>
+							</Container>
+						</ListGroup>
+					</div>
 				</div>
 				<div className="bottomBorder bottomBorder__large"></div>
 			</div>

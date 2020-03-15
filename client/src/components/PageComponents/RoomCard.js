@@ -18,6 +18,10 @@ const card = props => {
 
 	return (
 		<Card>
+			<CardImg
+				src={data.image.src}
+				altText={data.image.altText}
+			></CardImg>
 			<CardBody>
 				<CardTitle>{data.name}</CardTitle>
 				<CardSubtitle>{data.subtitle}</CardSubtitle>

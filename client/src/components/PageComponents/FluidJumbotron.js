@@ -6,8 +6,8 @@ const fluidJumbotron = props => {
 
 	return (
 		<div>
-			<Jumbotron fluid>
-				<Container fluid className="homeJumbotron">
+			<Jumbotron fluid className="homeJumbotron">
+				<Container fluid>
 					<h1 className="display-3 homeJumbotron__title">
 						{data.title}
 					</h1>

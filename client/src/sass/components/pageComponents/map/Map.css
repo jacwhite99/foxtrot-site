@@ -1,8 +1,23 @@
 .map {
   overflow: hidden;
-  padding-bottom: 50%;
+  padding-bottom: 40%;
   position: relative;
   height: 0;
+  /* ----------- Retina Screens ----------- */
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .map {
+    height: 20%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .map {
+    height: 20%;
+    width: 60%;
+  }
 }
 
 .map iframe {
