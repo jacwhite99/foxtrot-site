@@ -22,11 +22,11 @@ const navbar = () => {
 	};
 
 	return (
-		<Navbar color="light" light expand="md">
-			<NavbarBrand href="/">Foxdale</NavbarBrand>
+		<Navbar color="dark" dark expand="md">
+			{/* <NavbarBrand href="/">Foxdale</NavbarBrand> */}
 			<NavbarToggler onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
-				<Nav className="mr-auto" navbar>
+				<Nav className="mx-auto" navbar>
 					<NavItem>
 						<NavLink href="/">Homepage</NavLink>
 					</NavItem>

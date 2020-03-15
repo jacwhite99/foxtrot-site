@@ -9,6 +9,8 @@
 	padding-bottom: 2.5rem;
 }
 
+// Navigation
+@import "./sass/components/Navigation/NavBar.scss";
 // Components
 @import "./sass/components/pageComponents/footer/footer.scss";
 @import "./sass/components/pageComponents/carousel/carousel.scss";
@@ -17,3 +19,5 @@
 //General Files
 @import "./sass/general/section/section.scss";
 @import "./sass/general/border/border.scss";
+
+@import "./sass/components/Navigation/NavBar.scss";

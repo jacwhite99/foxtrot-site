@@ -1,5 +1,13 @@
 .homeJumbotron {
   text-transform: uppercase;
   text-align: center;
+  -webkit-text-stroke: 1px yellow;
+  background-image: url("./images/coast-view.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
 /*# sourceMappingURL=homeJumbotron.css.map */

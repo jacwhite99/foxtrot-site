@@ -4,16 +4,16 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 // Page Components
 import RoomCard from "../components/PageComponents/RoomCard";
-import FluidJumbotron from "../components/PageComponents/FluidJumbotron";
+import HomeJumbotron from "../components/PageComponents/HomeJumbotron";
 
 //Data Import
 import CardInformation from "../data/CardInformation";
-import HomeJumbotron from "../data/HomeJumbotron";
+import homeJumbotron from "../data/HomeJumbotron";
 
 const home = () => {
 	return (
 		<div>
-			<FluidJumbotron data={HomeJumbotron}></FluidJumbotron>
+			<HomeJumbotron data={homeJumbotron}></HomeJumbotron>
 			<div className="section">
 				<h2 className="section__title">About Us</h2>
 				<h2 className="section__subtitle">And what we provide</h2>

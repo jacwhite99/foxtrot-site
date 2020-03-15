@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam|Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam|Pacifico&display=swap");
 #root {
   position: relative;
   min-height: 100vh;
@@ -7,6 +9,17 @@
 
 .content {
   padding-bottom: 2.5rem;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Kalam", cursive !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Kalam", cursive !important;
 }
 
 .footer {
@@ -27,6 +40,14 @@
 .homeJumbotron {
   text-transform: uppercase;
   text-align: center;
+  -webkit-text-stroke: 1px yellow;
+  background-image: url("./images/coast-view.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
 
 .map {
@@ -72,5 +93,16 @@
 .bottomBorder__large {
   width: 80%;
   border-bottom: 3px solid #d2282e;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Kalam", cursive !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Kalam", cursive !important;
 }
 /*# sourceMappingURL=main.css.map */
