@@ -3,6 +3,7 @@
 #root {
 	position: relative;
 	min-height: 100vh;
+
 	font-family: "Lato", sans-serif;
 }
 .content {
@@ -17,7 +18,9 @@
 @import "./sass/components/pageComponents/Jumbotrons/homeJumbotron.scss";
 @import "./sass/components/pageComponents/map/Map.scss";
 //General Files
+
 @import "./sass/general/section/section.scss";
 @import "./sass/general/border/border.scss";
+@import "./sass/general/section-dividers/divider.scss";
 
 @import "./sass/components/Navigation/NavBar.scss";

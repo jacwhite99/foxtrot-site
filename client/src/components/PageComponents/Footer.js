@@ -26,12 +26,6 @@ const footer = () => {
 				<a className="footer__link" href="/rooms">
 					Rooms
 				</a>
-				<a className="footer__link" href="/rooms/guesthouse">
-					Guesthouse
-				</a>
-				<a className="footer__link" href="/rooms/campsite">
-					Campsite
-				</a>
 			</p>
 			<p className="footer__border"></p>
 			<h1 className="footer__title">FOXDALE</h1>

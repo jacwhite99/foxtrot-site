@@ -20,15 +20,25 @@ const home = () => {
 				<div className="bottomBorder"></div>
 				<div className="section__text">
 					<p>
-						We are a business, located in Tenby, Southwest Wales,
-						providing out customers with the highest quality
-						campsite, for those who want to venture out in nature,
-						and a luxiourious guesthouse, for those who want to stay
-						in and explore the local area during the day
+						We are a family run business located in North
+						Pembrokeshire, offering a Bed and Breakfast or a
+						Campsite for our customers to use.
+					</p>
+					<p>
+						Close to the coastal path, beuatiful beaches,
+						countryside and a embarking point for skomer island, our
+						location is perfect for those who want to get away and
+						explore the nature around us.
+					</p>
+					<p>
+						Look below or explore our site to find out how to
+						contact us, or finding out more about our services and
+						what comes with them
 					</p>
 				</div>
 				<div className="bottomBorder bottomBorder__large"></div>
 			</div>
+			<div className="section-divider section-divider__1"></div>
 			<div className="section">
 				<h2 className="section__title">Rooms</h2>
 				<div className="bottomBorder"></div>
@@ -48,6 +58,7 @@ const home = () => {
 				</Container>
 				<div className="bottomBorder bottomBorder__large"></div>
 			</div>
+			<div className="section-divider section-divider__2"></div>
 			<div className="section">
 				<h2 className="section__title">How to Book</h2>
 				<div className="bottomBorder"></div>

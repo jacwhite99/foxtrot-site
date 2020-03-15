@@ -1,0 +1,16 @@
+.section-divider {
+  padding: 5rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(158, 158, 158, 0.8)), to(rgba(129, 129, 129, 0.8))), url("./images/coast-view.jpg");
+  background-image: linear-gradient(to right bottom, rgba(158, 158, 158, 0.8), rgba(129, 129, 129, 0.8)), url("./images/coast-view.jpg");
+  background-size: cover;
+  -webkit-transform: skewY(-1deg);
+          transform: skewY(-1deg);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-divider > * {
+  -webkit-transform: skewY(7deg);
+          transform: skewY(7deg);
+}
+/*# sourceMappingURL=divider.css.map */

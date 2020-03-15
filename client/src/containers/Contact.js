@@ -15,18 +15,24 @@ const contact = () => {
 				<div className="bottomBorder"></div>
 				<Container>
 					<Row>
-						<Col>Email</Col>
-						<Col>Phone</Col>
+						<Col>
+							<h3>Email</h3>
+							<p>foxdale@btconnect.com</p>
+						</Col>
+						<Col>
+							<h3>Phone</h3>
+							<p>01646 636243</p>
+						</Col>
 					</Row>
 				</Container>
 				<div className="bottomBorder bottomBorder__large"></div>
 			</div>
+			<div className="section-divider section-divider__3"></div>
 			<div className="section">
 				<div>
 					<p className="section__title"> How To Find Us</p>
 					<div>Glebe Lane, Marloes SA62 3AY, Haverfordwest</div>
 					<div className="bottomBorder"></div>
-					<p className="section__text">TEXT</p>
 					<p className="section__subtitle">Map Information</p>
 					<Map></Map>
 					<div className="bottomBorder bottomBorder__large"></div>
